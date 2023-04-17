@@ -33,7 +33,7 @@ else:
     print('No GPU available, using the CPU instead.')
 
 
-model = torch.load('./test.pt', map_location=torch.device(device_kind))
+model = torch.load('./KcElectra.pt', map_location=torch.device(device_kind))
 def predict(sentence):
     print(sentence)
     model.eval()
@@ -68,7 +68,7 @@ def remove_unnecessary_word(text):
     
     spacer = Spacer(level=3)
     # text = text.rstrip().lstrip()
-    text.replace(" " , "")
+    # text.replace(" " , "")
     text = spacer.space([text])
     return text[0]
 
