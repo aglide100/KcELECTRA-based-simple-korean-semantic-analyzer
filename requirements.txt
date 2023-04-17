@@ -1,0 +1,8 @@
+gluonnlp 
+pandas 
+tqdm   
+mxnet
+sentencepiece
+transformers
+torch
+quickspacer
