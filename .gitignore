@@ -1,3 +1,5 @@
 .history
 
 *.pt
+*.onnx
+node_modules
